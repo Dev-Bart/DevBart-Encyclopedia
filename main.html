@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DevBart Encyclopedia</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> <!--stara czcionka--!>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> <!--pobieranie czcionki dla strony-->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--linkowanie do pliku css-->
+    <link rel="shortcut icon" type="image/png" href="images/icons8-monitor-96.png"/> <!--favicon-->
+    <script type="text/javascript" src="pro.js"></script>
+</head>
+<body>
+    <button onclick='window.scrollTo({top: 0, behavior: "smooth"});' class='siteLogo'></button></button>
+
+    <header id='header'>
+        <h1>DevBart Encyclopedia</h1>
+        <h2>Simple site about my learning code adventure</h2>
+    </header>
+    <nav>
+    <navigation><!--utworzyć pasek nawigacji ze skrótem do kolejnych elementów strony i linków do dobrych materiałów + dodać logo z favicona-->
+        <a href="#aboutMe">About me</a>
+        <a href="#usefulSites">Useful sites</a>
+        <a href='#myInspirations'>Inspirations</a>
+    </navigation>
+    </nav>
+    <main>
+    <!--potem zmienic uklad pdfów, ktore zlinkować gdzies na dole strony a u góry zostawić tylko linki do nich, zeby przezucalo na dół-->
+        <div id='myNotates' class='container'>
+            <h3>My notates about 3 main languages in front-end</h3>
+            <div class="all-logos">
+                <a href="notates/HTML_bc.pdf" target="_blank"><img  class="langImg" src="https://icon-library.net/images/icon-for-html/icon-for-html-3.jpg" alt="Hmm.. Html logo should be there" height="200px" width="200px"/></a>
+                <a href="https://as1.ftcdn.net/jpg/02/33/17/50/500_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg" target="_blank"><img  class="langImg" src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5351_-_CSS3-512.png" alt="Hmm.. CSS logo should be there"/></a>
+                <a href="notates/JS_bc.pdf" target="="_blank"><img class="langImg" src="https://icon-library.net/images/js-icon/js-icon-24.jpg " alt="Hmm.. JS logo should be there"/></a>
+            </div>
+        </div>
+        <!--utworzyć hamburger menu z cheat sheet sites rozbite na html/css/js abym mial szyki dostęp do tego ;)-->
+        <!--z drugiej strony mozna utworzyc drugiego hamburgera ze stronkami jak wyszukiwarka google/stackoverflow/w3school-->
+       <div id='usefulSites' class='container'>
+            <h3 >Best sites about code learning!</h3> <!--podlinkować dobre stronki jakie mam w zakldce chroma i je dobrze opisac i pogrupować-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quos labore quisquam harum, commodi sapiente. Aspernatur, facilis odio qui odit vero ex adipisci dignissimos velit ullam magnam! Ut voluptates aperiam eligendi maiores voluptatum reiciendis unde ullam, tempore in consectetur doloremque, sequi cumque fugit natus placeat aut repellat cupiditate, eos inventore. Placeat ipsa accusamus aut architecto quia, animi nesciunt! Deserunt iure numquam earum rerum mollitia neque eum eveniet ex doloremque, nulla a esse laborum vero enim eius magnam in ea adipisci soluta aliquam. Incidunt explicabo sed commodi obcaecati consequatur ipsam ad, corrupti provident dolor labore voluptatum quam modi, soluta ab facilis.</p>
+        </div>
+        <div id='myInspirations' class='container'>
+            <h3 >Good YT devPeople</h3> <!--utworzyc link do konda romana! mozna tez wrzucic jakies jego wideo lub obrazek-->
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur sed maiores tempore nostrum, ea corrupti dolorum deleniti dicta id ullam. Dolor laborum sequi quam consequatur odit maiores! Sapiente, impedit eaque dolor quos nisi vero! Id laborum esse eveniet cum molestiae. Distinctio ex eum quae commodi illum omnis odio quod necessitatibus quia iste tempore, aut molestiae velit? Soluta illum architecto, quaerat eos officia laboriosam tempore sapiente reprehenderit fugiat modi odio at voluptate quasi adipisci, nostrum alias consequuntur in repellendus cumque! Tempore nostrum id quae nihil incidunt sapiente consectetur repellendus molestias maiores in, ad excepturi, sunt iure animi maxime atque adipisci minus.</p>
+        </div>
+        <div id='aboutMe' class='container'>
+            <h3 >About Me</h3>
+                <p>My name is Bartek. I start learning coding in November, 2019. I decide to change my career path from geology, when I stuck to IT World which have many various roads and paths. Now i develop this site with newly learned fuctions of languages like: HTML, CSS or Java Script... and i hope more in the future.</p>
+            <div class="socialMedia">
+                <a href='./mySession.html' target='_blank'><img src="https://img.icons8.com/nolan/64/picasa.png" alt='My weeding photo shoots'></a>
+                <img src="https://img.icons8.com/nolan/64/facebook-new.png">
+                <img src="https://img.icons8.com/nolan/64/instagram-new.png">
+                <img src="https://img.icons8.com/nolan/64/github.png"> <!--create github account and connect with it-->
+                <img src="https://img.icons8.com/nolan/64/gmail.png"> <!--create contact form on click-->
+            </div>
+        </div>
+        <button onclick='window.scrollTo({top: 0, behavior: "smooth"});' class="myBtn">Scroll to Top</button>
+    </main>
+    <div class='siteBottom'>All right reserved. Created by_BC</div>
+</body>
+</html>
+
