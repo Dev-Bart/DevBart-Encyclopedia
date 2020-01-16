@@ -38,6 +38,18 @@ h1 {
     margin: 0;
 }
 
+.socialMedia {
+    position: relative;
+    display: block;
+    top: 34%;
+    opacity: 60%;
+}
+
+.socialMedia a img {
+    width: 40px;
+    height: 40px;
+}
+
 /* LOGO & scrollTop */
 
 button {
@@ -47,8 +59,8 @@ button {
 .siteLogo {
     position: fixed;
     z-index: 100;
-    margin-top: 7px;
-    margin-left: 7px;
+    margin-top: 15px;
+    margin-left: 15px;
     width: 40px;
     height: 40px;
     transition: transform .2s;
@@ -209,8 +221,3 @@ h3 {
 .container p:hover {
     color: whitesmoke;
   }
-
-img {
-    width: 700px;
-    height: auto;
-}
