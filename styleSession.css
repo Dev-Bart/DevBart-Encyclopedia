@@ -1,14 +1,43 @@
-.gallery {
-    width: 80%;
-    margin: 20px auto;
-}
-
-
-.item {
-    width: 100%;
-    margin: 10px auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #33694b;
+}
+
+.gallery {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    align-items: flex-start;}
+
+.column-wrapper-left {
+    flex: 0 1 33%;
+    margin: 10px 10px;
+}
+
+.column-wrapper-mid {
+    flex: 0 1 33%;
+    margin: 10px 0;
+}
+
+.column-wrapper-right {
+    flex: 0 1 33%;
+    margin: 10px 10px;
+}
+
+.item {
+    max-width: 400px;
+    transition: 1s;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+
+.item:hover {
+    opacity: 1;
+    max-width: 101%;
+    filter: grayscale(0%);
 }
